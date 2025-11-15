@@ -1,8 +1,8 @@
 # Instructions Génériques - IA Managers Toolkit
 
-## Initiative FR-Digital
+## Initiative LaFabriqAI
 
-**FR-Digital** crée une série de repos open-source pour démystifier l'IA pour les managers non-techniques. L'objectif : donner aux décideurs les outils pratiques pour piloter des projets IA sans être data scientist.
+**LaFabriqAI** crée une série de repos open-source pour démystifier l'IA pour les managers non-techniques. L'objectif : donner aux décideurs les outils pratiques pour piloter des projets IA sans être data scientist.
 
 ### Vision
 
@@ -107,7 +107,7 @@ Chaque README doit inclure :
 3. **Quick Start** avec liens directs
 4. **Table des matières** des contenus
 5. **Section Contribuer**
-6. **Contact FR-Digital**
+6. **Contact LaFabriqAI**
 7. **Footer avec branding**
 
 ---
@@ -135,14 +135,14 @@ Chaque README doit inclure :
 
 ---
 
-## Branding FR-Digital
+## Branding LaFabriqAI
 
 ### Footer Standard
 
 ```markdown
 ---
 
-**Made with ❤️ by [FR-Digital](https://github.com/FR-Digital)**
+**Made with ❤️ by [LaFabriqAI](https://github.com/FR-Digital)**
 
 ⭐ **Aimez ce repo ?** Donnez-nous une star !
 ❓ **Questions ?** [Ouvrez une issue](https://github.com/FR-Digital/[repo-name]/issues)
@@ -161,7 +161,7 @@ Chaque README doit inclure :
 [![Stars](https://img.shields.io/github/stars/FR-Digital/[repo-name])](https://github.com/FR-Digital/[repo-name]/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![French](https://img.shields.io/badge/Lang-Français-blue)]()
-[![FR-Digital](https://img.shields.io/badge/By-FR--Digital-purple)](https://github.com/FR-Digital)
+[![LaFabriqAI](https://img.shields.io/badge/By-LaFabriqAI-purple)](https://github.com/FR-Digital)
 ```
 
 ---
@@ -175,7 +175,7 @@ Chaque README doit inclure :
 - [ ] Au moins 1 framework, 1 guide, 1 template
 - [ ] Exemples concrets inclus
 - [ ] Liens internes fonctionnels
-- [ ] Branding FR-Digital présent
+- [ ] Branding LaFabriqAI présent
 - [ ] Tone business-friendly vérifié
 
 ### Revue croisée
@@ -188,4 +188,4 @@ Chaque nouveau contenu doit :
 
 ---
 
-*Ce fichier définit les standards pour tous les repos de la collection IA Managers Toolkit de FR-Digital.*
+*Ce fichier définit les standards pour tous les repos de la collection IA Managers Toolkit de LaFabriqAI.*
