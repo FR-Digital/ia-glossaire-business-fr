@@ -1,0 +1,383 @@
+# Instructions Spécifiques - Repo: ia-glossaire-business-fr
+
+**Référence générique :** Voir fichier `instructions` pour les standards communs.
+
+---
+
+## Informations Repo
+
+**Nom :** `ia-glossaire-business-fr`
+**Tagline :** "Comprendre l'IA sans être data scientist - Le glossaire des décideurs"
+**Priorité :** 🔥🔥 HAUTE (fondation pour tous les autres repos)
+**URL :** `https://github.com/FR-Digital/ia-glossaire-business-fr`
+
+> **Note :** Ce repo utilise le préfixe `ia-` (français) pour cohérence avec les autres repos FR-Digital.
+
+---
+
+## Objectif Spécifique
+
+Fournir aux managers un dictionnaire pratique des termes IA, traduits en langage business avec :
+1. Des définitions simples sans jargon technique
+2. Des analogies business pour chaque concept
+3. Les questions à poser en réunion
+4. Les pièges à éviter pour chaque terme
+
+---
+
+## Structure Complète
+
+```
+ia-glossaire-business-fr/
+│
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── SOURCES.md
+│
+├── glossaire/
+│   ├── A-termes.md                      ← Termes A (Algorithm, API, etc.)
+│   ├── B-termes.md                      ← Termes B (Bias, Big Data, etc.)
+│   ├── ...
+│   └── glossaire-complet.md             ← PRIORITÉ 1 (tous les termes)
+│
+├── frameworks/
+│   ├── decoder-jargon-technique.md      ← PRIORITÉ 2
+│   ├── questions-clarification.md
+│   └── red-flags-vocabulaire.md
+│
+├── guides/
+│   ├── survie-reunion-ia.md             ← PRIORITÉ 3
+│   ├── evaluer-proposition-commerciale.md
+│   └── comprendre-rapport-technique.md
+│
+├── templates/
+│   ├── fiche-concept.md
+│   ├── checklist-comprehension.md
+│   └── aide-memoire.pdf
+│
+├── checklists/
+│   ├── vocabulaire-essentiel.md
+│   └── pieges-marketing-ia.md
+│
+└── examples/
+    ├── decoder-pitch-startup.md
+    └── analyser-proposition-vendor.md
+```
+
+---
+
+## Contenu Prioritaire à Créer
+
+### PRIORITÉ 1 : Glossaire Complet
+
+**Fichier :** `glossaire/glossaire-complet.md`
+
+**Concept clé :** Chaque terme IA traduit en langage manager avec contexte business
+
+**Structure pour chaque terme :**
+
+```markdown
+## [Terme]
+
+**En bref :** [1 phrase simple]
+
+**Analogie business :** [Comparaison avec concept business connu]
+
+**Pourquoi c'est important pour vous :**
+- [Impact business 1]
+- [Impact business 2]
+
+**Question à poser en réunion :**
+> "[Question concrète]"
+
+**Red flag si on vous dit :**
+- ❌ "[Phrase alarmante]"
+
+**Green flag si on vous dit :**
+- ✅ "[Phrase rassurante]"
+
+**Termes liés :** [Liens vers autres termes]
+```
+
+**Termes essentiels à inclure (50 termes minimum) :**
+
+**Fondamentaux (10 termes) :**
+- Algorithme
+- Intelligence Artificielle
+- Machine Learning
+- Deep Learning
+- Réseau de neurones
+- Modèle
+- Entraînement
+- Inférence
+- Dataset
+- Feature
+
+**Performance (10 termes) :**
+- Précision / Accuracy
+- Recall / Rappel
+- F1-Score
+- Overfitting
+- Underfitting
+- Biais
+- Généralisation
+- Benchmark
+- Ground Truth
+- Validation
+
+**Types d'IA (10 termes) :**
+- NLP (Natural Language Processing)
+- Computer Vision
+- LLM (Large Language Model)
+- Chatbot
+- IA Générative
+- Classification
+- Régression
+- Clustering
+- Recommandation
+- Prédiction
+
+**Infrastructure (10 termes) :**
+- API
+- Cloud
+- GPU
+- Latence
+- Scalabilité
+- Edge Computing
+- MLOps
+- Pipeline
+- Déploiement
+- Monitoring
+
+**Business & Éthique (10 termes) :**
+- ROI de l'IA
+- Time-to-Value
+- Proof of Concept (POC)
+- Minimum Viable Model
+- Data Governance
+- IA Responsable
+- Explicabilité
+- Transparence
+- Audit IA
+- Conformité RGPD
+
+---
+
+### PRIORITÉ 2 : Framework "Décoder le Jargon Technique"
+
+**Fichier :** `frameworks/decoder-jargon-technique.md`
+
+**Concept clé :** Méthode en 4 étapes pour comprendre n'importe quel terme IA
+
+**Structure du contenu :**
+
+```markdown
+# Framework : Décoder le Jargon Technique en 4 Étapes
+
+## Étape 1 : Identifier la catégorie
+- Est-ce un concept théorique ?
+- Est-ce une métrique ?
+- Est-ce un outil/technologie ?
+- Est-ce un processus ?
+
+## Étape 2 : Trouver l'analogie business
+- À quel processus business ça ressemble ?
+- Tableau de correspondances
+
+## Étape 3 : Poser LA question clé
+- "Quel impact sur [coût/délai/qualité/risque] ?"
+- Templates de questions par contexte
+
+## Étape 4 : Détecter le bullshit
+- Red flags universels
+- Phrases marketing vs substance
+- Checklist de vérification
+```
+
+---
+
+### PRIORITÉ 3 : Guide "Survie en Réunion IA"
+
+**Fichier :** `guides/survie-reunion-ia.md`
+
+**Concept clé :** Kit de survie pour manager en réunion technique IA
+
+**Structure du contenu :**
+
+```markdown
+# Guide de Survie en Réunion IA
+
+## Avant la réunion
+- 10 termes à connaître absolument
+- Questions à préparer
+- Objectifs à clarifier
+
+## Pendant la réunion
+- Phrases pour demander des clarifications (sans avoir l'air perdu)
+- Comment reformuler pour vérifier sa compréhension
+- Red flags à noter
+- Questions puissantes qui montrent votre expertise business
+
+## Après la réunion
+- Checklist de compréhension
+- Points à faire clarifier
+- Décisions à prendre
+
+## Antisèche
+- Tableau des traductions rapides
+- Formules de politesse pour challenger
+```
+
+---
+
+## Contenus Secondaires
+
+### Glossaire par Lettres
+
+**`glossaire/A-termes.md` à `glossaire/Z-termes.md`**
+- Facilite la navigation
+- Même format que glossaire complet
+- Liens croisés entre termes
+
+### Frameworks Additionnels
+
+**`frameworks/questions-clarification.md`**
+- 50 questions types pour clarifier le jargon
+- Organisées par situation (pitch, réunion technique, rapport)
+
+**`frameworks/red-flags-vocabulaire.md`**
+- Phrases marketing trompeuses
+- Promesses irréalistes
+- Jargon qui cache le vide
+
+### Guides Additionnels
+
+**`guides/evaluer-proposition-commerciale.md`**
+- Décoder une proposition vendor
+- Identifier les promesses vs réalité
+- Questions à poser au commercial
+
+**`guides/comprendre-rapport-technique.md`**
+- Lire un rapport de data science
+- Interpréter les graphiques courants
+- Extraire l'essentiel pour décision
+
+### Templates
+
+**`templates/fiche-concept.md`**
+- Template pour documenter un nouveau terme appris
+- Format standardisé
+
+**`templates/checklist-comprehension.md`**
+- Vérifier qu'on a compris avant de décider
+- Points clés à valider
+
+**`templates/aide-memoire.pdf`**
+- Poster A4 imprimable
+- 20 termes essentiels
+- À garder sur son bureau
+
+### Checklists
+
+**`checklists/vocabulaire-essentiel.md`**
+- Les 30 termes à maîtriser absolument
+- Auto-évaluation
+- Ressources pour approfondir
+
+**`checklists/pieges-marketing-ia.md`**
+- Phrases marketing à questionner
+- Promesses trop belles
+- Comment vérifier les claims
+
+### Exemples
+
+**`examples/decoder-pitch-startup.md`**
+- Pitch réel (anonymisé) d'une startup IA
+- Analyse terme par terme
+- Red flags identifiés
+- Questions posées
+
+**`examples/analyser-proposition-vendor.md`**
+- Proposition commerciale réelle
+- Traduction en langage business
+- Points négociés grâce à la compréhension
+
+---
+
+## Planning d'Exécution
+
+### Semaine 1 (Setup + Glossaire Core)
+- [ ] Créer structure de dossiers
+- [ ] README.md avec positionnement "dictionnaire des décideurs"
+- [ ] LICENSE (MIT)
+- [ ] CONTRIBUTING.md
+- [ ] **Glossaire complet - 25 premiers termes** (8h)
+- [ ] Checklist vocabulaire-essentiel.md (2h)
+
+### Semaine 2 (Glossaire + Framework)
+- [ ] **Glossaire complet - 25 termes suivants** (8h)
+- [ ] **Framework decoder-jargon-technique.md** (4h)
+- [ ] Template fiche-concept.md (1h)
+
+### Semaine 3 (Guides + Pratique)
+- [ ] **Guide survie-reunion-ia.md** (4h)
+- [ ] Guide evaluer-proposition-commerciale.md (3h)
+- [ ] Exemple decoder-pitch-startup.md (3h)
+
+### Semaine 4 (Enrichissement + Polish)
+- [ ] Framework questions-clarification.md
+- [ ] Framework red-flags-vocabulaire.md
+- [ ] Guide comprendre-rapport-technique.md
+- [ ] Checklist pieges-marketing-ia.md
+- [ ] SOURCES.md
+- [ ] Révision et liens croisés
+- [ ] Aide-mémoire PDF
+
+---
+
+## Spécificités README
+
+Le README de ce repo doit mettre en avant :
+- Le problème : "Ils parlent de 'fine-tuning du LLM' et vous hochez la tête"
+- La solution : Dictionnaire pratique avec traductions business
+- Quick Start : Top 10 termes à connaître + lien glossaire complet
+- Cas d'usage : Réunion, pitch, rapport technique, négociation vendor
+- Valeur ajoutée : Pas juste des définitions, mais contexte business + questions à poser
+
+---
+
+## Bonnes Pratiques Spécifiques
+
+### Pour chaque terme
+1. **Simplicité** : Définition compréhensible par un non-technicien
+2. **Contexte** : Quand ce terme apparaît dans la vraie vie
+3. **Action** : Quelle question poser, quelle décision prendre
+4. **Alerte** : Quand ce terme est mal utilisé (red flag)
+
+### Liens entre termes
+- Créer un réseau de concepts liés
+- Permettre navigation intuitive
+- Montrer les relations (ex: ML → Deep Learning → LLM)
+
+### Éviter
+- Définitions académiques
+- Jargon pour expliquer du jargon
+- Listes sans contexte
+- Termes sans impact business
+
+---
+
+## Sources et Inspirations
+
+À référencer dans SOURCES.md :
+- Google AI Glossary (simplifié)
+- AWS Machine Learning Glossary
+- IBM AI Terms
+- Expériences terrain LaFabriqAI
+- Retours de managers sur incompréhensions fréquentes
+- Analyses de pitchs et propositions commerciales
+
+---
+
+*Ce fichier contient les instructions spécifiques pour le repo ia-glossaire-business-fr. Pour les standards généraux, voir le fichier `instructions`.*
